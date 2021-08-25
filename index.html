@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/myStyle.css" type="text/css" />
+    <link rel="stylesheet" href="css/common.css" type="text/css" />
+    <link rel="stylesheet" href="layui-v2.6.8/layui/css/layui.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <p id="first"></p>
+      <div class="header">
+        <div class="page_logo">
+          <img src="static/img/font-logo.png" alt="图片正在加载" />
+        </div>
+        <div class="page_nav">
+          <ul class="page_nav_ul">
+            <li><a href="index.html" class="page_link">我的主页</a></li>
+            <li><a href="" class="page_link">博客blog</a></li>
+            <li><a href="photoWall.html" class="page_link">照片墙</a></li>
+            <li><a href="" class="page_link">日常随笔</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main layui-anim-fadeout">
+        <div class="main-img1">
+          <img src="static/img/web-logo.png" alt="图片正在加载" />
+        </div>
+        <div class="main-img2">
+          <img src="static/img/story-logo.png" alt="图片正在加载" />
+        </div>
+        <div class="welcome_btn animated bounce">
+          <div
+            class="layui-btn layui-btn-lg layui-btn-radius"
+            onclick="welcome()"
+          >
+            WELCOME!
+          </div>
+        </div>
+        <div class="introduce">
+          <a href="#introduce" id="introduce1"></a>
+        </div>
+      </div>
+      <div class="section">
+        <p id="introduce"></p>
+        <div class="about-icon">
+          <span class="about-font">关于我</span>
+          <i class="layui-icon layui-icon-username"></i>
+        </div>
+        <div class="layui-btn-container hobby_btn">
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-red"
+          >
+            天秤座
+          </button>
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-cyan"
+          >
+            00后
+          </button>
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-orange"
+          >
+            跑步爱好者
+          </button>
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-blue"
+          >
+            憨憨
+          </button>
+          <br />
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-box"
+          >
+            程序猿
+          </button>
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-green"
+          >
+            足球小将
+          </button>
+          <button
+            type="button"
+            class="layui-btn layui-btn-primary layui-border-black"
+          >
+            江科大贝尔
+          </button>
+        </div>
+        <hr />
+        <div class="time-line">
+          <ul class="layui-timeline">
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2021年7月25日</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-orange"></span
+                  >我开始搭建我的个人博客
+                  <i class="layui-icon layui-icon-face-smile-b"></i>
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2021年7月14日</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-green"></span
+                  >结束了我大学的第二学年，即将踏入大三
+                  <i class="layui-icon layui-icon-loading"></i>
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2019年10月16日</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-red"></span
+                  >我遇见那个宇宙第一可爱的她
+                  <i class="layui-icon layui-icon-heart-fill"></i>
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2019年9月</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-blue"></span
+                  >遇见了大学四年的舍友们
+                  <i class="layui-icon layui-icon-fire"></i> 兄弟情深
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2019年9月1日</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-black"></span
+                  >我考入了<em>江苏科技大学</em>
+                  <i class="layui-icon layui-icon-read"></i> 开启人生新篇章
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <h3 class="layui-timeline-title">2016年-2019年</h3>
+                <br />
+                <p>
+                  <span class="layui-badge-dot layui-bg-gray"></span
+                  >我在<em>无锡市第三高级中学</em>度过了最难忘的青葱岁月,奋斗的日子时常想起。
+                  <i class="layui-icon layui-icon-release"></i>
+                </p>
+                <br />
+              </div>
+            </li>
+            <li class="layui-timeline-item">
+              <i class="layui-icon layui-timeline-axis">&#xe63f;</i>
+              <div class="layui-timeline-content layui-text">
+                <div class="layui-timeline-title">过去</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="photo-section">
+          <div class="photo-title">
+            <span class="photo-about">照片墙</span>
+            <i class="layui-icon layui-icon-camera"></i>
+          </div>
+          <div class="photo-wall">
+            <div class="photo-trs">
+              <img
+                src="static/img/book.jpg"
+                class="photo1 photo"
+                alt="图片正在加载"
+              />
+            </div>
+            <div class="photo-trs">
+              <img
+                src="static/img/food.jpg"
+                class="photo2 photo"
+                alt="图片正在加载"
+              />
+            </div>
+            <div class="photo-trs">
+              <img
+                src="static/img/game.jpg"
+                class="photo3 photo"
+                alt="图片正在加载"
+              />
+            </div>
+            <div class="photo-trs">
+              <img
+                src="static/img/music.jpg"
+                class="photo4"
+                alt="图片正在加载"
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer">
+          <div class="link-section">
+            <div class="link1">
+              <p>博客链接 <i class="layui-icon layui-icon-circle-dot"></i></p>
+              <ul>
+                <li><a href="">Github</a></li>
+                <li><a href="">博客园</a></li>
+                <li><a href="">CSDN</a></li>
+                <li><a href="">码云</a></li>
+              </ul>
+            </div>
+            <div class="link2">
+              <p>私信我 <i class="layui-icon layui-icon-email"></i></p>
+              <ul>
+                <li><a href="">QQ</a></li>
+                <li><a href="">微信</a></li>
+                <li><a href="">邮箱</a></li>
+                <li><a href="">b站</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="copy-text">
+            COPYRIGHT &COPY; 2020 - 2021 &nbsp;ZOVZ RIGHTS RESERVED.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-nav">
+      <a href="" onclick="refresh()">
+        <div class="fresh-icon">
+          <i class="layui-icon layui-icon-refresh"></i>
+        </div>
+      </a>
+      <a href="#first">
+        <div class="up-icon">
+          <i class="layui-icon layui-icon-up"></i>
+        </div>
+      </a>
+    </div>
+    <script src="jquery-3.5.1.js"></script>
+    <script src="layui-v2.6.8/layui/layui.js"></script>
+    <script src="js/heart.js"></script>
+    <script src="js/myScript.js"></script>
+  </body>
+</html>

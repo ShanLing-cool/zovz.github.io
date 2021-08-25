@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../layui-v2.6.8/layui/css/layui.css">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/myStyle_PhotoWall.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+    <script src="../jquery-3.5.1.js"></script>
+    <script src="../layui-v2.6.8/layui/layui.js"></script>
+    <script src="js/heart.js"></script>
+    <script src="js/myScript.js"></script>
+</head>
+<body>
+<div class="page">
+
+    <div class="header">
+        <div class="page_logo">
+            <img src="static/img/font-logo-photoWall.png" alt="图片正在加载">
+        </div>
+        <div class="page_nav">
+            <ul class="page_nav_ul">
+                <li><a href="index.html" class="page_link">我的主页</a></li>
+                <li><a href="" class="page_link">博客blog</a></li>
+                <li><a href="" class="page_link">照片墙</a></li>
+                <li><a href="" class="page_link">日常随笔</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layui-carousel" id="Shuffling-figure">
+        <div carousel-item>
+            <div><img src="static/img/book.jpg"></div>
+            <div><img src="static/img/book.jpg"></div>
+            <div><img src="static/img/book.jpg"></div>
+            <div><img src="static/img/book.jpg"></div>
+            <div><img src="static/img/book.jpg"></div>
+        </div>
+    </div>
+
+    <div id="nav">
+        <div class="title">
+            <p><i class="layui-icon layui-icon-triangle-d"></i>点我导航！</p>
+        </div>
+        <div class="content">
+            <a href="#red">
+                <button type="button" class="layui-btn layui-btn layui-bg-red">书籍</button>
+            </a>
+            <br>
+            <a href="#cyan">
+                <button type="button" class="layui-btn layui-btn layui-bg-cyan">书籍</button>
+            </a>
+            <br>
+            <a href="#green">
+                <button type="button" class="layui-btn layui-btn">书籍</button>
+            </a>
+            <br>
+            <a href="#orange">
+                <button type="button" class="layui-btn layui-btn layui-bg-orange">书籍</button>
+            </a>
+            <br>
+            <a href="#gray">
+                <button type="button" class="layui-btn layui-btn layui-bg-gray">书籍</button>
+            </a>
+            <br>
+            <a href="#black">
+                <button type="button" class="layui-btn layui-btn layui-bg-black">书籍</button>
+            </a>
+            <br>
+            <a href="#blue">
+                <button type="button" class="layui-btn layui-btn layui-bg-blue">书籍</button>
+            </a>
+            <br>
+        </div>
+    </div>
+
+    <div class="color-wall">
+        <div class="red color" id="red">
+            <p>书籍</p>
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar layui-bg-red" lay-percent="10%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+
+        </div>
+        <div class="cyan color" id="cyan">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar layui-bg-cyan" lay-percent="20%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+        <div class="green color" id="green">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar" lay-percent="30%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+        <div class="orange color" id="orange">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar layui-bg-orange" lay-percent="40%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+        <div class="gray color" id="gray">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar  layui-bg-gray" lay-percent="50%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+        <div class="black color" id="black">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar layui-bg-black" lay-percent="60%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+        <div class="blue  color" id="blue">
+            <div class="layui-progress layui-progress-big">
+                <div class="layui-progress-bar layui-bg-blue " lay-percent="70%"></div>
+            </div>
+            <div class="photo1 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo2 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo3 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo4 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo5 photo">
+                <img src="static/img/book.jpg">
+            </div>
+            <div class="photo6 photo">
+                <img src="static/img/book.jpg">
+            </div>
+        </div>
+
+    </div>
+    <!-- 条目中可以是任意内容，如：<img src=""> -->
+    <script>
+        layui.use('carousel', function () {
+            var carousel = layui.carousel;
+            //建造实例
+            carousel.render({
+                elem: '#Shuffling-figure'
+                , width: '711.1' //设置容器宽度
+                , height: '400'//设置容器高度
+                , arrow: 'hover' //始终显示箭头
+                , anim: 'fade' //切换动画方式
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+/*page*/
+.page {
+    width: 1518.5px;
+    margin: 0 auto;
+}
+
+/*header*/
+.header {
+}
+
+.page_link {
+    color: black;
+}
+
+.page_link:hover {
+    color: black;
+}
+
+.page_link:before {
+    background: black;
+}
+
+/*轮播图*/
+
+#Shuffling-figure {
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+#Shuffling-figure img{
+    width: 711.1px;
+    height: 400px;
+}
+
+/*导航*/
+#nav{
+    position: fixed;
+    bottom: 200px;
+    left: 1400px;
+    height: 380px;
+    width: 100px;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,.5);
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content{
+    margin: 0 auto;
+    width: 66px;
+}
+
+.content button{
+    margin-bottom: 5px;
+}
+
+
+/*照片墙*/
+
+.color-wall {
+    width: 1518.5px;
+    margin: 0 auto;
+}
+
+.color-wall p {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.color-wall img {
+    width: 330px;
+    height: 200px;
+}
+
+.color {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.photo{
+    transform: rotate(-10deg);
+    width: 330px;
+    height: 200px;
+    transition-duration: 2s;
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 15px;
+    float: left;
+    cursor: pointer;
+}
+.photo:hover{
+    transform: rotate(0deg) scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

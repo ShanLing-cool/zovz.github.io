@@ -1,0 +1,294 @@
+/*page*/
+.page {
+    width: 1518.5px;
+    margin: 0 auto;
+    background: url("../static/img/main-bg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.page::before {
+    content: "";
+    position: absolute;
+    height: 854px;
+    width: 1518.5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+/*main*/
+.main {
+    width: 1518.5px;
+    height: 730px;
+    margin: 0 auto;
+
+}
+
+.main-img1 {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.main-img2 {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.welcome_btn {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    z-index: 3;
+}
+
+.introduce {
+    margin: 0 auto;
+    width: 34px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 160px;
+    position: relative;
+    z-index: 3;
+}
+
+#introduce1 {
+    display: block;
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    border-top: 3px solid rgba(255, 255, 255, 0.5);
+    height: 30px;
+    width: 30px;
+    transform: rotate(135deg);
+}
+
+.introduce:hover #introduce1 {
+    border-right: 3px solid rgba(255, 255, 255, 1);
+    border-top: 3px solid rgba(255, 255, 255, 1);
+}
+
+/*section*/
+.section {
+    width: 1518.5px;
+    height: 1600px;
+    margin: 0 auto;
+
+}
+
+.about-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-font {
+    font-size: 25px;
+    position: relative;
+    bottom: 8px;
+}
+
+.about-icon i {
+    font-size: 50px
+}
+
+.hobby_btn {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+
+.time-line {
+    width: 600px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    left: 120px;
+}
+
+.photo-section {
+    width: 1380px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.photo-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo-title i {
+    font-size: 50px;
+}
+
+.photo-about {
+    font-size: 25px;
+    position: relative;
+    bottom: 8px;
+}
+
+.photo-wall {
+    width: 1350px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+.photo-wall img {
+    border-radius: 10px;
+    float: left;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .5);
+    margin-top: 20px;
+}
+
+.photo-trs::before {
+    border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 2300px;
+    height: 200px;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 2;
+    transition-duration: 0.8s;
+}
+
+.photo-wall :nth-child(1):hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "书籍";
+    position: absolute;
+    top: 2300px;
+    height: 200px;
+    width: 320px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.photo-wall :nth-child(2):hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "美食";
+    position: absolute;
+    top: 2300px;
+    height: 200px;
+    width: 320px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.photo-wall :nth-child(3):hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "游戏";
+    position: absolute;
+    top: 2300px;
+    height: 200px;
+    width: 320px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.photo-wall :nth-child(4):hover::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "音乐";
+    position: absolute;
+    top: 2300px;
+    height: 200px;
+    width: 320px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.photo {
+    width: 320px;
+    height: 200px;
+    margin-right: 19.2px;
+}
+
+.photo4 {
+    margin-right: 0;
+    width: 320px;
+    height: 200px;
+}
+
+/*footer*/
+.footer {
+    width: 1518.5px;
+    height: 200px;
+}
+
+.link-section {
+    height: 150px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-space: 20px;
+}
+
+.link-section i {
+    font-size: 20px;
+}
+
+.link1 {
+    float: left;
+}
+
+.link-section ul {
+    line-height: 20px;
+}
+
+.link2 {
+    float: left;
+    margin-left: 100px;
+}
+
+.copy-text {
+    text-align: center;
+}
+
+.fixednav {
+    position: fixed;
+    top: 550px;
+    left: 1450px;
+    width: 100%;
+    z-index: 999;
+}
+
+.fixed-nav i {
+    font-size: 30px;
+    position: relative;
+    left: 6px;
+    top: 3px;
+}
+
+.up-icon {
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px black solid;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.fresh-icon {
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px black solid;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
